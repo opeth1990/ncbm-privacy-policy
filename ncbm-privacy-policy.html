@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>개인정보처리방침 - 네이버 카페용 차단 매니저 NCBM</title>
+  <meta name="description" content="네이버 카페용 차단 매니저 NCBM 개인정보처리방침" />
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 2rem;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p, li {
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    ul {
+      margin: 10px 0 0 22px;
+      padding: 0;
+    }
+
+    .meta {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .contact {
+      word-break: break-all;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>개인정보처리방침</h1>
+      <p class="subtitle"><strong>네이버 카페용 차단 매니저 - NCBM</strong> (이하 “본 확장 프로그램”)</p>
+
+      <p>본 확장 프로그램은 사용자의 개인정보를 중요하게 생각하며, 관련 법령 및 Chrome Web Store 정책을 준수합니다.</p>
+
+      <h2>1. 수집하는 정보</h2>
+      <p>본 확장 프로그램은 사용자의 이름, 이메일, 연락처, 계정 정보 등 개인 식별 정보를 수집하지 않습니다.</p>
+      <p>본 확장 프로그램은 사용자의 브라우징 기록을 외부 서버로 전송하지 않으며, 사용자의 동의 없이 데이터를 수집하지 않습니다.</p>
+
+      <h2>2. 저장되는 정보</h2>
+      <p>본 확장 프로그램은 차단 기능을 제공하기 위해 사용자가 직접 설정한 정보만 저장할 수 있습니다. 예를 들면 다음과 같습니다.</p>
+      <ul>
+        <li>차단 명단</li>
+        <li>키워드 필터</li>
+        <li>등급 설정</li>
+        <li>기타 사용자가 직접 입력하거나 변경한 설정값</li>
+      </ul>
+      <p>이 정보는 사용자의 브라우저 로컬 저장소(<code>chrome.storage.local</code>)에만 저장되며, 외부 서버로 전송되지 않습니다.</p>
+
+      <h2>3. 정보의 이용 목적</h2>
+      <p>저장된 정보는 다음 목적에만 사용됩니다.</p>
+      <ul>
+        <li>네이버 카페 페이지에서 차단 대상 항목을 숨기거나 표시하지 않기</li>
+        <li>사용자가 지정한 차단 규칙을 유지하고 불러오기</li>
+        <li>확장 프로그램의 설정 상태를 보존하기</li>
+      </ul>
+
+      <h2>4. 제3자 제공</h2>
+      <p>본 확장 프로그램은 사용자의 정보를 외부 서버로 전송하지 않으며, 제3자에게 판매, 공유, 제공하지 않습니다.</p>
+
+      <h2>5. 권한 사용 목적</h2>
+      <p>본 확장 프로그램은 기능 제공에 필요한 범위에서만 권한을 사용합니다.</p>
+      <ul>
+        <li><code>host_permissions</code> (<code>cafe.naver.com/*</code>): 네이버 카페 페이지에서 차단 대상 항목을 숨기거나 표시하지 않기 위해 사용합니다.</li>
+        <li><code>storage</code>: 사용자가 설정한 차단 정보와 옵션을 로컬에 저장하고 불러오기 위해 사용합니다.</li>
+      </ul>
+
+      <h2>6. 데이터 보관 및 삭제</h2>
+      <p>저장된 설정은 사용자의 브라우저에 보관됩니다. 사용자가 확장 프로그램을 삭제하거나 저장 데이터를 지우면 해당 정보도 함께 삭제됩니다.</p>
+      <p>사용자는 확장 프로그램의 설정 초기화 또는 브라우저의 저장 데이터 삭제를 통해 저장된 정보를 제거할 수 있습니다.</p>
+
+      <h2>7. 아동의 개인정보</h2>
+      <p>본 확장 프로그램은 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+      <h2>8. 정책 변경</h2>
+      <p>본 개인정보처리방침은 서비스 변경, 법령 변경, 또는 Chrome Web Store 정책 변경에 따라 수정될 수 있습니다. 변경 시 본 페이지에 최신 내용을 게시합니다.</p>
+
+      <h2>9. 문의</h2>
+      <p>본 확장 프로그램 사용 중 개인정보 관련 문의는 아래 방법을 통해 연락할 수 있습니다.</p>
+      <p class="contact">
+            이메일: no7beckham.dev@gmail.com
+      </p>
+    </section>
+  </main>
+</body>
+</html>
